@@ -9,7 +9,3 @@ This will be the overview for your project, You will detauls what your project i
 * Run json server for db.json
 * Open index.html in the browser
 
-### Installation Instructions
-* Fork and clone
-* Run json server for db.json
-* Open index.html in the browser
