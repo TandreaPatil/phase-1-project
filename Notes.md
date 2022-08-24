@@ -1,17 +1,17 @@
-### Random Joke Generator
+### Random Recipe Generator
 
 ## Features
-* Joke API
-* List random jokes (DOMContentLoaded)
-* Favorite Jokes (Click)
-* Comment on Jokes (Submit) (Need a json server)
-* Click to see answer
+* Recipe API
+* List random recipes (DOMContentLoaded)
+* Favorite recipes (Click)
+* Comment on recipes (Submit) (Need a json server)
+* Click to see recipe details
 
 ### MVP
-* Joke API
-* List random jokes (DOMContentLoaded)
-* Comment on Jokes (Submit) (Need a json server)
-* Click to see answer
+* Recipe API
+* List random random (DOMContentLoaded)
+* Comment on recipes (Submit) (Need a json server)
+* Click to see recipe ingredients and details/instructions
 
 ### Stretch
-* Favorite Jokes (Click)
+* Favorite recipes (Click)
