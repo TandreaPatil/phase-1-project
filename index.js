@@ -18,7 +18,7 @@ function attachHomePageClickEvent() {
 }
 
 function attachRandomRecipeClickEvent() {
-    randomRecipeLink().addEventListener("click", renderRandomRecipePage);
+    randomRecipeLink().addEventListener("click", fetchRandomRecipe);
 
 } 
 
@@ -65,6 +65,14 @@ function renderRandomRecipePage() {
 
     mainDiv().appendChild(h1)
     mainDiv().appendChild(p)
+}
+
+const fetchRandomRecipe = () => {
+    fetch("https://themealdb.com/api/json/v1/1/random.php")
+    .then(resp => resp.json())
+    .then(data => {
+        console.log(data);
+    })
 }
 
 
