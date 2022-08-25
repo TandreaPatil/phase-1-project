@@ -3,22 +3,22 @@ Will display homepage */
 
 // Node
 const mainDiv = () => document.getElementById("main");
-const yummyRecipeListLink = () => document.getElementById("yummy-recipe-list-link");
+const yummyBeerListLink = () => document.getElementById("yummy-beer-list-link");
 const homePageLink = () => document.getElementById("home-page-link");
-const randomRecipeLink = () => document.getElementById("random-recipe-link");
+const randomBrewLink = () => document.getElementById("random-brew-link");
 
 
 // Event Listeners
-function attachYummyRecipeListClickEvent() {
-    yummyRecipeListLink().addEventListener("click", renderYummyRecipeListPage);
+function attachYummyBeerListClickEvent() {
+    yummyBeerListLink().addEventListener("click", renderYummyBeerListPage);
 }
 
 function attachHomePageClickEvent() {
     homePageLink().addEventListener("click", renderHomePage);
 }
 
-function attachRandomRecipeClickEvent() {
-    randomRecipeLink().addEventListener("click", fetchRandomRecipe);
+function attachRandomBrewClickEvent() {
+    randomBrewLink().addEventListener("click", renderRandomBrewPage);
 
 } 
 
@@ -37,14 +37,14 @@ function renderHomePage() {
     mainDiv().appendChild(p);
 }
 
-function renderYummyRecipeListPage() {
+function renderYummyBeerListPage() {
     resetMainDiv();
 
     const h1 = document.createElement("h1");
     const ul = document.createElement("ul"); 
     const li = document.createElement("li")
 
-    h1.innerText = "Yummy Recipe List Page";
+    h1.innerText = "Yummy Beer List Page";
 
     li.innerText = "So many different flavors to choose from!";
 
@@ -54,25 +54,17 @@ function renderYummyRecipeListPage() {
     mainDiv().appendChild(ul)
 }
 
-function renderRandomRecipePage() {
+function renderRandomBrewPage() {
     resetMainDiv();
 
     const h1 = document.createElement("h1");
     const p = document.createElement("p");
 
-    h1.innerText = "Random Recipe Page"
+    h1.innerText = "Random Brew Page"
     p.innerText = "Here's a suggestion that I think you'd love!"
 
     mainDiv().appendChild(h1)
     mainDiv().appendChild(p)
-}
-
-const fetchRandomRecipe = () => {
-    fetch("https://themealdb.com/api/json/v1/1/random.php")
-    .then(resp => resp.json())
-    .then(data => {
-        console.log(data);
-    })
 }
 
 
@@ -84,7 +76,7 @@ function resetMainDiv() {
 //DOM CONTENT LOADED
 document.addEventListener("DOMContentLoaded", () => {
   renderHomePage (); 
-  attachYummyRecipeListClickEvent();
+  attachYummyBeerListClickEvent();
   attachHomePageClickEvent();
-  attachRandomRecipeClickEvent();
+  attachRandomBrewClickEvent();
 })

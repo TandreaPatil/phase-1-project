@@ -1,0 +1,13 @@
+{
+    "favorites": [
+        {
+            "id": 1,
+            "recipe": "Tuscan Pasta Bake"
+        },
+        {
+            "id": 2,
+            "recipe": "Chocolate Fudge Cake"
+        }
+
+    ]
+}
