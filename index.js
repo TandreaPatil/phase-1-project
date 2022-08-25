@@ -54,7 +54,7 @@ function renderYummyBeerListPage() {
     mainDiv().appendChild(ul)
 }
 
-function renderRandomBrewPage() {
+function renderRandomBrewPage(brew) {
     resetMainDiv();
 
     const h1 = document.createElement("h1");
@@ -71,8 +71,10 @@ const fetchRandomBrew = () => {
     fetch("https://api.punkapi.com/v2/beers/random")
     .then(resp => resp.json())
     .then(data => {
-        console.log(data);
+        //const { name } = data;
+        console.log(data[0].name);
     })
+
 }
 
 // Helpers
