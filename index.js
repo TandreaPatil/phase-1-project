@@ -18,7 +18,7 @@ function attachHomePageClickEvent() {
 }
 
 function attachRandomBrewClickEvent() {
-    randomBrewLink().addEventListener("click", renderRandomBrewPage);
+    randomBrewLink().addEventListener("click", fetchRandomBrew);
 
 } 
 
@@ -67,6 +67,13 @@ function renderRandomBrewPage() {
     mainDiv().appendChild(p)
 }
 
+const fetchRandomBrew = () => {
+    fetch("https://api.punkapi.com/v2/beers/random")
+    .then(resp => resp.json())
+    .then(data => {
+        console.log(data);
+    })
+}
 
 // Helpers
 function resetMainDiv() {
