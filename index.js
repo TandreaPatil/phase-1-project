@@ -61,7 +61,7 @@ function renderRandomBrewPage(brew) {
     const p = document.createElement("p");
 
     h1.innerText = "Random Brew Page"
-    p.innerText = "Here's a suggestion that I think you'd love!"
+    p.innerText = brew;
 
     mainDiv().appendChild(h1)
     mainDiv().appendChild(p)
@@ -71,10 +71,9 @@ const fetchRandomBrew = () => {
     fetch("https://api.punkapi.com/v2/beers/random")
     .then(resp => resp.json())
     .then(data => {
-        //const { name } = data;
-        console.log(data[0].name);
+        renderRandomBrewPage(data[0].name);
     })
-
+//(data[0].name);
 }
 
 // Helpers
