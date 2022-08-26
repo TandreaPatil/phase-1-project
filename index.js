@@ -126,3 +126,9 @@ document.addEventListener("DOMContentLoaded", () => {
   attachHomePageClickEvent();
   attachRandomBrewClickEvent();
 })
+
+const img = document.querySelector('img');
+    // console.log(img)
+    img.addEventListener("mouseover", () => {
+        alert("Look at how happy these beer drinkers are! This is the result of using Ultimate Beer Selector instead of ordering unknowingly. You too can eperience this joy! Just click on the Random Brew tab in the top right corner. We'll give you a suggestion that will be sure to impress.");
+    });

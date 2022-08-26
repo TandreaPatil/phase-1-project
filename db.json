@@ -5,7 +5,7 @@
       "brew": "_______________________________________________"
     },
     {
-      "id": 2, 
+      "id": 2,
       "brew": "Here are some of our all time favorite brews:"
     },
     {
@@ -15,7 +15,7 @@
     {
       "id": 5,
       "brew": "Powerball Pils (U.B.S. favorite!)"
-      },
+    },
     {
       "id": 6,
       "brew": "Whiney Sour (U.B.S. favorite!)"
@@ -33,16 +33,24 @@
       "brew": "Great Lake Erie Monster (U.B.S. favorite!)"
     },
     {
-       "id": 10,
-       "brew": "_______________________________________________"
+      "id": 10,
+      "brew": "_______________________________________________"
     },
     {
-        "id": 11,
-        "brew": "Below are all of the brews you loved:"
+      "id": 11,
+      "brew": "Below are all of the brews you loved:"
     },
     {
-        "id": 12,
-        "brew": "_______________________________________________"
-     }
+      "id": 12,
+      "brew": "_______________________________________________"
+    },
+    {
+      "brew": "AB:08",
+      "id": 13
+    },
+    {
+      "brew": "Prototype Helles",
+      "id": 14
+    }
   ]
 }
