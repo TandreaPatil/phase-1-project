@@ -28,7 +28,10 @@ The purpose of Ultimate Brew Selector is to take the guess work out of selecting
 * https://api.punkapi.com/v2/beers 
 
 ## Images Source
-* https://ichef.bbci.co.uk/news/976/cpsprodpb/4044/production/_91225461_beerdrinking_thinkstockphotos-100928951.jpg.webp
+* Beer with friends 
+    * imagehttps://ichef.bbci.co.uk/news/976/cpsprodpb/4044/production/_91225461_beerdrinking_thinkstockphotos-100928951.jpg.webp
+* Backgrond image
+    * https://www.eatthis.com/wp-content/uploads/sites/4/2022/02/Beer-flight.jpg?quality=82&strip=1
 
 ## Blog
 * Here's a blog post about fetch and Ultimate Beer Selector:
@@ -39,8 +42,10 @@ The purpose of Ultimate Brew Selector is to take the guess work out of selecting
     * "DOMContentLoaded" 
     * "click" 
     * "mouseover"
+* Array Iteration
+    * .forEach
 * Video walk-through: 
-    * INSERT LINK HERE
+    * https://youtu.be/GBUw7yLLf1g 
 
 ## Contributing
 * Please email tandreayoung@gmail.com for suggestions.
