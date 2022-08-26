@@ -30,7 +30,7 @@ The purpose of Ultimate Brew Selector is to take the guess work out of selecting
 ## Images Source
 * Beer with friends 
     * https://ichef.bbci.co.uk/news/976/cpsprodpb/4044/production/_91225461_beerdrinking_thinkstockphotos-100928951.jpg.webp
-* Backgrond image
+* Background image
     * https://www.eatthis.com/wp-content/uploads/sites/4/2022/02/Beer-flight.jpg?quality=82&strip=1
 
 ## Blog
