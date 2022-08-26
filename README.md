@@ -45,7 +45,7 @@ The purpose of Ultimate Brew Selector is to take the guess work out of selecting
 * Array Iteration
     * .forEach
 * Video walk-through: 
-    * https://youtu.be/GBUw7yLLf1g 
+    * https://youtu.be/VSq42WqCWZQ 
 
 ## Contributing
 * Please email tandreayoung@gmail.com for suggestions.
