@@ -1,0 +1,27 @@
+body {
+	/* background-color: rgb(83, 3, 83); */
+	background-image: url("https://www.eatthis.com/wp-content/uploads/sites/4/2022/02/Beer-flight.jpg?quality=82&strip=1");
+	/* background-repeat: no-repeat; */
+	/*background-size:cover;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: antiquewhite;
+	max-width: 500px;
+	margin: auto;
+	text-align: center; */
+}
+
+img {
+	width: auto;
+	max-height: 100%;
+}
+
+footer.copyright {
+	color: antiquewhite;
+	/* position:absolute;
+	bottom:0;
+	height:60px; */
+	padding: 20px;
+	text-align: center;
+}

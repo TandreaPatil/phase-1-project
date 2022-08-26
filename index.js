@@ -32,7 +32,7 @@ function renderHomePage() {
 
 
     h1.innerText = "U.B.S. Homepage"
-    p.innerText = "We know... you've had a long, tough day at work. The last thing you should be responsible for after punching the clock is choosing a beer from a confusing menu at the local brewery. Sit back and relax while we choose your next cold one!"
+    p.innerText = "We know... brewery menus are tough! The last thing you should be responsible for after a long day is choosing a beer from an overwhelming menu. Sit back and relax while we choose your next cold one!"
 
     mainDiv().appendChild(h1);
     mainDiv().appendChild(p);
@@ -130,5 +130,5 @@ document.addEventListener("DOMContentLoaded", () => {
 const img = document.querySelector('img');
     // console.log(img)
     img.addEventListener("mouseover", () => {
-        alert("Look at how happy these beer drinkers are! This is the result of using Ultimate Beer Selector instead of ordering unknowingly. You too can eperience this joy! Just click on the Random Brew tab in the top right corner. We'll give you a suggestion that will be sure to impress.");
+        alert("Look at how happy these beer drinkers are! This is the result of using Ultimate Beer Selector instead of ordering unknowingly. You too can experience this joy! Just click on the `Random Brew` page in the top right corner. We'll give you a suggestion that's sure to impress.");
     });
