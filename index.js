@@ -108,6 +108,7 @@ const favoriteBrew = brew => {
     })
         .then(resp => resp.json())
         .then(data => {
+            //console.log(data)//
           brews.push(data);
           renderYummyBeerListPage()
         })
