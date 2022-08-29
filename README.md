@@ -34,8 +34,8 @@ The purpose of Ultimate Brew Selector is to take the guess work out of selecting
     * https://www.eatthis.com/wp-content/uploads/sites/4/2022/02/Beer-flight.jpg?quality=82&strip=1
 
 ## Blog
-* Here's a blog post about fetch and Ultimate Beer Selector:
-    * INSERT LINK HERE
+* Here's a blog post about fetch:
+    * https://medium.com/@tandreayoung/how-to-make-a-fetch-request-94191e1c99a5
 
 ## Projects Requirement Details
 * 3 event listeners used: 
